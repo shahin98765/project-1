@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    /* background: aqua; */
+    position: absolute;
+    width:  100%;
+    top: 28px;
+}
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    display: block;
+}
+ul{
+    list-style-type: none;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+nav .container .menu{
+    display: flex;
+    align-items: center;
+}
+nav .container .menu ul{
+    display: flex;
+    column-gap: 60px;
+}
+nav .container .menu ul li a{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: white;
+    transition: .4s;
+}
+nav .container .menu ul li a:hover{
+    color: black;
+}
+nav .container .menu ul li .active{
+    color: black;
+}
+#banner-part{
+    padding: 262px;
+    background: url(../img/Rectangle\ 1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner-part p{
+    color: #FFC178;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+#banner-part h1{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+#banner-part h2{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+#about-part{
+    background: black;
+    padding: 210px 0 200px;
+}
+#about-part .container{
+    display: flex;
+    column-gap: 24px;
+}
+#about-part .container .left{
+    width: 50%;
+}
+#about-part .container .left img{
+    width: 100%;
+} 
+#about-part .container .right{
+    width: 50%;
+    display: flex;
+    align-items:center; 
+}
+#about-part .container .right .about-title{
+    color: #FBD784;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+#about-part .container .right h2{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#about-part .container .right .about-text{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+#about-part .container .right a{
+    color: #FBD784;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#bromo{
+    background: black;
+    /* padding-bottom: 210px; */
+}
+#bromo .container{
+    background: url(../img/image\ 2\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 500px 0 33px;
+    text-align: center;
+}
+#bromo .container .bromo-title{
+    color: #FBD784;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+#bromo .container h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width:  932px;
+    margin: 13px auto 14px;
+}
+#bromo .container .bromo-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    width: 893px;
+    margin: 0 auto 26px;
+}
+#bromo .container a{
+    color: #FBD784;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.culture{
+    flex-direction: row-reverse;
+}
+footer{
+    background: black;
+}
+footer .left{
+    padding-bottom: 139px;
+}
+footer .left img{
+    padding: 20px;
+}
+footer .left h2{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;  
+}
+footer .left .me{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.205px;
+    text-transform: capitalize;
+}
+footer .left .icon a{
+    width: 20px;
+    height: 20px;
+    color: white;
+    padding: 15px;
+}
